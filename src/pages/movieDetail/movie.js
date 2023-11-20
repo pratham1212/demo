@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom"
 const Movie = () => {
     const [currentMovieDetail, setMovie] = useState()
     const { id } = useParams()
-
+    console.log("1");
     useEffect(() => {
         getData()
         window.scrollTo(0,0)
